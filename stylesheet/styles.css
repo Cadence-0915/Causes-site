@@ -1,0 +1,26 @@
+body{
+	background-color: ;
+}
+
+p{
+	padding: 60px;
+	margin: 50px;
+}
+
+.ting{
+	clear: both;
+	display: inline;
+	width: 65px;
+	margin: 20px;
+	float: left;
+	padding: 10px;
+}
+
+a.iconlink img{
+  vertical-align:middle;
+  transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
+}
+a.iconlink:hover img{
+  opacity:0.5;
+}
