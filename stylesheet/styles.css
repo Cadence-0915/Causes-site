@@ -2,7 +2,6 @@ body{
 	background-image: url("http://preview.themique.com/vertikal/vertikal-charity/wp-content/uploads/sites/11/2014/01/background1.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-
 }
 
 li{
@@ -126,16 +125,22 @@ a.iconlink:hover img{
 	text-align: center;	
 }
 
-.col1{
+/*.email{
 	clear: both;
 	float: left;
+	background-color: #fff;
+}*/
+
+.col1{
+	position: absolute;
+	float: left;
 	margin: 120px;
-	margin-top: -300px;
+	margin-left: 130px;
+	margin-top: 50px;
 }
 
 #now{
-	clear: both;
 	float: left;
-	margin: 120px;
-	margin-top: -250px;
+	margin-left: 135px;
+	margin-top: 100px;
 }
