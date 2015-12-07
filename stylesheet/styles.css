@@ -46,6 +46,17 @@ p{
 	padding: 50px;
 }
 
+.col1{
+	background-color: #9EADBF;	
+	clear: both;
+	float: left;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 150px;
+	opacity: 0.6;
+	padding: 3	0px;
+}
+
 .ting{
 	clear: both;
 	display: inline;
@@ -133,10 +144,18 @@ a.iconlink:hover img{
 
 .col1{
 	position: absolute;
-	float: left;
+	/*float: left;*/
+	clear: both;
+	font-size: 20px;
 	margin: 120px;
 	margin-left: 130px;
 	margin-top: 50px;
+	width: 380px;
+}
+
+.email{
+	clear: both;
+	margin-left: 20px;
 }
 
 #now{
