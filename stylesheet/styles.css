@@ -1,7 +1,7 @@
 body{
 	background-image: url("http://preview.themique.com/vertikal/vertikal-charity/wp-content/uploads/sites/11/2014/01/background1.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 
 }
 
@@ -14,7 +14,7 @@ li{
 
 ul.knave {
 	padding: 20px;
-	padding-left: 20px;
+	padding-left: 150px;
 }
 
 ul.knave a{
@@ -75,6 +75,13 @@ a.iconlink:hover img{
 	color: #000;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+.home{
+	margin-top: -90px;	
+	margin-left: -125px;
+	padding: 10px;
+	float: left;
 }
 
 .box1:hover{
