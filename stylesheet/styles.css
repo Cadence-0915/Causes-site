@@ -20,8 +20,6 @@ ul.knave {
 ul.knave a{
 	padding: 5px 20px;
 	margin: 1px;
-	/*margin: 30;
-	margin-left: 30;*/
 	background-color: #6793BC;
 	border: 1px solid #000;
 	border-bottom: none;
@@ -45,7 +43,6 @@ p{
 	width: 400px;
 	margin-top: -250px;
 	margin-left: 130px;
-/*	position: absolute;*/
 	opacity: 0.6;
 	padding: 50px;
 }
@@ -76,7 +73,7 @@ a.iconlink:hover img{
 .wrapper a{
 	background-color: none;
 	color: #000;
-	font-size: 20px;
+	font-size: 22px;
 	text-decoration: none;
 }
 
@@ -89,37 +86,31 @@ a.iconlink:hover img{
 
 .box1:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box2:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box3:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box4:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box5:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box6:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
@@ -133,4 +124,18 @@ a.iconlink:hover img{
 	margin-left: 130px;
 	margin-top: 20px;
 	text-align: center;	
+}
+
+.col1{
+	clear: both;
+	float: left;
+	margin: 120px;
+	margin-top: -300px;
+}
+
+#now{
+	clear: both;
+	float: left;
+	margin: 120px;
+	margin-top: -250px;
 }
