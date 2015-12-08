@@ -5,6 +5,13 @@ body{
 
 }
 
+.home{
+	float: left;
+	margin-top: -38em;	
+	margin-left: 5px;
+	padding: 10px;
+}
+
 li{
 	display: inline-block;
 	font-size: 20px;
@@ -71,46 +78,33 @@ a.iconlink:hover img{
 	text-decoration: none;
 }
 
-.home{
-	float: left;
-	margin-top: -80px;	
-	margin-left: 5px;
-	padding: 10px;
-}
-
 .box1:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box2:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box3:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box4:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box5:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box6:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }

@@ -5,6 +5,12 @@ body{
 
 }
 
+.home{
+	float: left;
+	margin-top: -38em;;	
+	margin-left: 5px;
+}
+
 li{
 	display: inline-block;
 	font-size: 20px;
@@ -51,6 +57,7 @@ p{
 	padding: 50px;
 }
 
+
 a.iconlink img{
   vertical-align:middle;
   transition: opacity 0.1s;
@@ -70,13 +77,6 @@ a.iconlink:hover img{
 	font-size: 30px;
 	text-decoration: none;
 }
-
-.home{
-	float: left;
-	margin-top: -21.7em;;	
-	margin-left: 14px;
-}
-
 .fixed1{ 
 	position: fixed;
 	bottom: 0;
