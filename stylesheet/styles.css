@@ -51,19 +51,10 @@ p{
 	clear: both;
 	float: left;
 	width: 200px;
-	margin-top: 50px;
-	margin-left: 150px;
+	margin-top: 30px;
+	margin-left: 70px;
 	opacity: 0.6;
 	padding: 3	0px;
-}
-
-.ting{
-	clear: both;
-	display: inline;
-	width: 65px;
-	margin: 15px;
-	float: left;
-	padding: 15px;
 }
 
 a.iconlink img{
@@ -77,7 +68,6 @@ a.iconlink:hover img{
 
 .wrapper{
 	clear: both;
-	
 }
 
 .wrapper a{
@@ -88,8 +78,8 @@ a.iconlink:hover img{
 }
 
 .home{
-	margin-top: -90px;	
-	margin-left: -125px;
+	margin-top: -80px;	
+	margin-left: 5px;
 	padding: 10px;
 	float: left;
 }
@@ -136,15 +126,8 @@ a.iconlink:hover img{
 	text-align: center;	
 }
 
-/*.email{
-	clear: both;
-	float: left;
-	background-color: #fff;
-}*/
-
 .col1{
 	position: absolute;
-	/*float: left;*/
 	clear: both;
 	font-size: 20px;
 	margin: 120px;
@@ -155,7 +138,8 @@ a.iconlink:hover img{
 
 .email{
 	clear: both;
-	margin-left: 20px;
+	margin-left: 10px;
+	margin-top: -30px;
 }
 
 #now{
