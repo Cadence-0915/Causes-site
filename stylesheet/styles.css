@@ -4,6 +4,17 @@ body{
 	background-size: 100%;
 }
 
+.home{
+	margin-top: -80px;	
+	margin-left: 5px;
+	padding: 10px;
+	float: left;
+}
+
+.home:hover{
+	opacity:0.6;
+}
+
 li{
 	display: inline-block;
 	font-size: 20px;
@@ -46,7 +57,7 @@ p{
 	padding: 50px;
 }
 
-.col1{
+.col1{	
 	background-color: #9EADBF;	
 	clear: both;
 	float: left;
@@ -66,12 +77,7 @@ a.iconlink:hover img{
   opacity:0.6;
 }
 
-.home{
-	margin-top: -80px;	
-	margin-left: 5px;
-	padding: 10px;
-	float: left;
-}
+
 .container{
 	clear: both;
 	margin: 2px;
@@ -142,13 +148,13 @@ a.iconlink:hover img{
 }
 
 .email{
-	clear: both;
-	margin-left: 10px;
-	margin-top: -30px;
+	/*clear: both;*/
+	margin-left: 20px;
+	margin-top: 25px;
 }
 
 #now{
 	float: left;
-	margin-left: 135px;
+	margin-left: 13px;
 	margin-top: 100px;
 }
