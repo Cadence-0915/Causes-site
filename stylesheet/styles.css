@@ -66,22 +66,22 @@ a.iconlink:hover img{
   opacity:0.6;
 }
 
-.wrapper{
-	clear: both;
-}
-
-.wrapper a{
-	background-color: none;
-	color: #000;
-	font-size: 22px;
-	text-decoration: none;
-}
-
 .home{
 	margin-top: -80px;	
 	margin-left: 5px;
 	padding: 10px;
 	float: left;
+}
+.container{
+	clear: both;
+	margin: 2px;
+}
+
+.container a{
+	background-color: none;
+	color: #000;
+	font-size: 22px;
+	text-decoration: none;
 }
 
 .box1:hover{
@@ -89,26 +89,31 @@ a.iconlink:hover img{
 	opacity:0.6;
 	position: relative;
 }
+
 .box2:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
 	position: relative;
 }
+
 .box3:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
 	position: relative;
 }
+
 .box4:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
 	position: relative;
 }
+
 .box5:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
 	position: relative;
 }
+
 .box6:hover{
 	background-color: #9EADBF;
 	opacity:0.6;

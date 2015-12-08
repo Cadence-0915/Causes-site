@@ -20,8 +20,6 @@ ul.knave {
 ul.knave a{
 	padding: 5px 20px;
 	margin: 1px;
-	/*margin: 30;
-	margin-left: 30;*/
 	background-color: #6793BC;
 	border: 1px solid #000;
 	border-bottom: none;
@@ -36,6 +34,10 @@ p{
 	float: left;
 	font-family: tahoma;
 	font-size: 18px;
+	background-color: #9EADBF;
+	opacity: 0.6;
+	height: 200px;
+	padding: 10px;
 }
 
 .finite{
@@ -45,7 +47,6 @@ p{
 	width: 400px;
 	margin-top: -250px;
 	margin-left: 130px;
-/*	position: absolute;*/
 	opacity: 0.6;
 	padding: 50px;
 }
@@ -129,12 +130,14 @@ a.iconlink:hover img{
   display: -webkit-flex;
   display: flex;
 }
+
 .initial {
   -webkit-flex: initial;
           flex: initial;
   width: 200px;
   min-width: 100px;
 }
+
 .fixed1 { 
 	position: fixed;
 	bottom: 0;
@@ -146,13 +149,5 @@ a.iconlink:hover img{
 	font-size: 12px;
 	font-family: tahoma;
 	text-align: center;
-
 }
-	/*-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;*/
-	}
-div{ 
-	display: block;
-	}
 

@@ -20,8 +20,6 @@ ul.knave {
 ul.knave a{
 	padding: 5px 20px;
 	margin: 1px;
-	/*margin: 30;
-	margin-left: 30;*/
 	background-color: #6793BC;
 	border: 1px solid #000;
 	border-bottom: none;
@@ -49,20 +47,9 @@ p{
 	width: 400px;
 	margin-top: -250px;
 	margin-left: 130px;
-/*	position: absolute;*/
 	opacity: 0.6;
 	padding: 50px;
 }
-
-/*.ting{
-	display: inline;
-	width: 65px;
-	margin: 15px;
-	float: right;
-	padding: 15px;
-	bottom: 0; 
-	position: relative;
-}*/
 
 a.iconlink img{
   vertical-align:middle;
@@ -85,13 +72,12 @@ a.iconlink:hover img{
 }
 
 .home{
-	/*clear: both;*/
 	float: left;
 	margin-top: -21.7em;;	
 	margin-left: 14px;
 }
 
-.fixed1 { 
+.fixed1{ 
 	position: fixed;
 	bottom: 0;
 	right : 0;
