@@ -148,21 +148,16 @@ a.iconlink:hover img{
 	font-family: tahoma;
 	text-align: center;
 }
-	/*-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;*/
-	/*}*/
-/*div{ 
-	display: block;
-	}*/
+	
 .formLayout {
 	background-color: #f3f3f3;
 	border: solid 1px #a1a1a1;
 	color: #49d8bf;
-	padding: 10px;
-	width: 300px;
+	padding: 20px;
+	height: 220px;
+	width: 395px;
 	margin: 0 auto;
-	clear:both;
+	/*clear:both;*/
 }
 
 .formLayout label, .formLayout input
