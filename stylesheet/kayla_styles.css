@@ -5,6 +5,17 @@ body{
 
 }
 
+.home{
+	float: left;
+	margin-top: -1em;	
+	margin-left: -4px;
+	padding: 10px;
+}
+
+.home:hover{
+	opacity:0.6;
+}
+
 li{
 	display: inline-block;
 	font-size: 20px;
@@ -14,14 +25,12 @@ li{
 
 ul.knave {
 	padding: 20px;
-	padding-left: 20px;
+	padding-left: 150px;
 }
 
 ul.knave a{
 	padding: 5px 20px;
 	margin: 1px;
-	/*margin: 30;
-	margin-left: 30;*/
 	background-color: #6793BC;
 	border: 1px solid #000;
 	border-bottom: none;
@@ -36,6 +45,10 @@ p{
 	float: left;
 	font-family: tah oma;
 	font-size: 18px;
+	background-color: #9EADBF;
+	opacity: 0.6;
+	height: 200px;
+	padding: 10px;
 }
 
 .finite{
@@ -45,19 +58,8 @@ p{
 	width: 400px;
 	margin-top: -250px;
 	margin-left: 130px;
-/*	position: absolute;*/
 	opacity: 0.6;
 	padding: 50px;
-}
-
-.ting{
-	clear: both;
-	display: inline;
-	width: 65px;
-	margin: 15px;
-	float: right;
-	padding: 15px;
-	bottom: 0; 
 }
 
 a.iconlink img{
@@ -71,7 +73,6 @@ a.iconlink:hover img{
 
 .wrapper{
 	clear: both;
-	
 }
 
 .wrapper a{
@@ -83,37 +84,31 @@ a.iconlink:hover img{
 
 .box1:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box2:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box3:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box4:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box5:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
 .box6:hover{
 	background-color: #9EADBF;
-	/*font-size: 32px;*/
 	opacity:0.6;
 	position: relative;
 }
@@ -133,12 +128,14 @@ a.iconlink:hover img{
   display: -webkit-flex;
   display: flex;
 }
+
 .initial {
   -webkit-flex: initial;
           flex: initial;
   width: 200px;
   min-width: 100px;
 }
+
 .fixed1 { 
 	position: fixed;
 	bottom: 0;
@@ -150,7 +147,6 @@ a.iconlink:hover img{
 	font-size: 12px;
 	font-family: tahoma;
 	text-align: center;
-
 }
 	/*-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

@@ -4,6 +4,17 @@ body{
 	background-size: 100%;
 }
 
+.home{
+	margin-top: -80px;	
+	margin-left: 5px;
+	padding: 10px;
+	float: left;
+}
+
+.home:hover{
+	opacity:0.6;
+}
+
 li{
 	display: inline-block;
 	font-size: 20px;
@@ -46,13 +57,15 @@ p{
 	padding: 50px;
 }
 
-.ting{
+.col1{	
+	background-color: #9EADBF;	
 	clear: both;
-	display: inline;
-	width: 65px;
-	margin: 15px;
 	float: left;
-	padding: 15px;
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 70px;
+	opacity: 0.6;
+	padding: 3	0px;
 }
 
 a.iconlink img{
@@ -64,23 +77,17 @@ a.iconlink:hover img{
   opacity:0.6;
 }
 
-.wrapper{
+
+.container{
 	clear: both;
-	
+	margin: 2px;
 }
 
-.wrapper a{
+.container a{
 	background-color: none;
 	color: #000;
 	font-size: 22px;
 	text-decoration: none;
-}
-
-.home{
-	margin-top: -90px;	
-	margin-left: -125px;
-	padding: 10px;
-	float: left;
 }
 
 .box1:hover{
@@ -88,26 +95,31 @@ a.iconlink:hover img{
 	opacity:0.6;
 	position: relative;
 }
+
 .box2:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
 	position: relative;
 }
+
 .box3:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
 	position: relative;
 }
+
 .box4:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
 	position: relative;
 }
+
 .box5:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
 	position: relative;
 }
+
 .box6:hover{
 	background-color: #9EADBF;
 	opacity:0.6;
@@ -125,22 +137,24 @@ a.iconlink:hover img{
 	text-align: center;	
 }
 
-/*.email{
-	clear: both;
-	float: left;
-	background-color: #fff;
-}*/
-
 .col1{
 	position: absolute;
-	float: left;
+	clear: both;
+	font-size: 20px;
 	margin: 120px;
 	margin-left: 130px;
 	margin-top: 50px;
+	width: 380px;
+}
+
+.email{
+	/*clear: both;*/
+	margin-left: 20px;
+	margin-top: 25px;
 }
 
 #now{
 	float: left;
-	margin-left: 135px;
+	margin-left: 13px;
 	margin-top: 100px;
 }
