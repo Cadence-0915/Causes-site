@@ -34,7 +34,7 @@ ul.knave a{
 p{
 	clear: both;
 	float: left;
-	font-family: tahoma;
+	font-family: tah oma;
 	font-size: 18px;
 }
 
@@ -155,8 +155,36 @@ a.iconlink:hover img{
 	/*-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;*/
-	}
-div{ 
+	/*}*/
+/*div{ 
 	display: block;
-	}
+	}*/
+.formLayout {
+	background-color: #f3f3f3;
+	border: solid 1px #a1a1a1;
+	color: #49d8bf;
+	padding: 10px;
+	width: 300px;
+	margin: 0 auto;
+	clear:both;
+}
 
+.formLayout label, .formLayout input
+{
+	display: block;
+	width: 120px;
+	float: left;
+	margin-bottom: 10px;
+}
+.formLayout label
+{
+	text-align: right;
+	padding-right: 20px;
+}
+iframe:focus {
+	outline: none;
+}
+
+iframe[seamless] {
+	display: block;
+}
